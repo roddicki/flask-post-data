@@ -1,9 +1,5 @@
 #!/usr/bin/python
 #
-#tutorials
-#https://flask.palletsprojects.com/en/1.0.x/quickstart/
-#https://www.fullstackpython.com/flask.html
-#https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/
 
 from flask import Flask, render_template, redirect, url_for, request
 app = Flask(__name__)
