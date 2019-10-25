@@ -14,10 +14,10 @@ def result():
 
 		# trigger LED / door in this code block
 		if 'Car' in check_list or 'Plane' in check_list:
-			# add pi code to trigger red LED / door here
+			# add GPIO code to trigger red LED / door here
 			led_msg = ' : You are a polluter - red LED on'
 		else:
-			# add pi code to trigger green LED / door here
+			# add GPIO code to trigger green LED / door here
 			led_msg = ' : Well done for only using a bike - Green LED on'
 
 		# generate text for result page
@@ -38,5 +38,5 @@ def index():
 
 
 if __name__ == '__main__':
-	# app.run(debug = True)
-	app.run(host="192.168.1.100")
+	app.run(debug = True)
+	# app.run(host="192.168.1.100")
