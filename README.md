@@ -1,7 +1,7 @@
 # flask-post-data
 Basic flask app the demos POST data and can be extended with GPIO on a Raspberry Pi
 
-## usage
+## Usage
 Install flask https://pypi.org/project/Flask/
 
 Download and run from project dir with 
@@ -22,7 +22,7 @@ To prevent this flask app being visible from other devices on the same network a
 	# app.run(host="0.0.0.0")
 
 
-## help
+## Help
 Useful tutorials
 tutorials
 
