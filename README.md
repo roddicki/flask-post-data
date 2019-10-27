@@ -18,7 +18,7 @@ To view this flask app from another device on the same network:
 
 To prevent this flask app being visible from other devices on the same network:
 
-1. Alter app.py to:
+1. Edit app.py to:
 	
 		app.run(debug = True)
 		# app.run(host="0.0.0.0")
