@@ -13,7 +13,7 @@ To view this flask app from another device on the same network:
 
 		$ python -m flask run --host=0.0.0.0
 
-2. Access the flask app via another machine at local-ip-address:5000 eg 192.168.5.67:5000
+2. Access the flask app via another machine at *local-ip-address:5000* eg *192.168.5.67:5000*
 
 
 To prevent this flask app being visible from other devices on the same network:
