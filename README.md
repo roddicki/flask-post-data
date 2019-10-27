@@ -8,7 +8,7 @@ Note: In it's current form this flask app can be deployed so that it is visible 
 
 To view this flask app from another device on the same network:
 
-1. find the local ip address of the machine running the flask app https://www.whatismyip.com/
+1. find the *local ip* address of the machine running the flask app https://www.whatismyip.com/
 2. Run flask from the project dir with
 
 		$ python -m flask run --host=0.0.0.0
